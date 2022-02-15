@@ -1,7 +1,4 @@
-from cv2 import subtract
 from flask import Flask, request, jsonify, Response
-from flask_sqlalchemy import SQLAlchemy
-from flask_marshmallow import Marshmallow
 from bitcoinlib.mnemonic import Mnemonic
 from bitcoinrpc.authproxy import AuthServiceProxy, JSONRPCException
 import os
