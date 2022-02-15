@@ -3,7 +3,6 @@ from bitcoinlib.mnemonic import Mnemonic
 from bitcoinrpc.authproxy import AuthServiceProxy, JSONRPCException
 import os
 
-from markupsafe import re
 
 #global vars
 db_uri = 'mysql://root:18781875Core@localhost:3306/corepay_btc'
